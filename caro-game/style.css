@@ -1,0 +1,49 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: -webkit-gradient(linear, left top, right top, from(#99f2c8), to(#1f4037));
+  background: linear-gradient(to right, #99f2c8, #1f4037);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body .platform {
+  height: 80vh;
+  width: 70vw;
+  background: white;
+  margin: 0 auto;
+  margin-top: 80px;
+  -webkit-box-shadow: 0 7px 4px black;
+          box-shadow: 0 7px 4px black;
+  overflow-x: scroll;
+}
+
+body .platform .square {
+  border-bottom: 1px solid black;
+  display: inline-block;
+  border-right: 1px solid black;
+  width: 3.69%;
+  height: 7%;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 15px;
+  font-size: 30px;
+}
+
+body .platform .square:hover {
+  cursor: pointer;
+}
+
+body .winner-hidden {
+  position: fixed;
+  top: 260px;
+  z-index: 1;
+  right: 500px;
+  display: none;
+  width: 500px;
+  height: 200px;
+}
+
+body .winner-show {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
