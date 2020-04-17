@@ -5,5 +5,7 @@ This is a simple tic-tac-toe game but with a twist. It has more 700 squares to p
 Todo lists:
 
 1: implement win logic on both side of the diagonal. Right now it only works from left to right. Not from right to left.
+
 2. Make it mobile and tablet responsive.
+
 3. Design a logo and place it on top of the game for decorative purposes.
