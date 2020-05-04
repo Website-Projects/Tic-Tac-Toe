@@ -2,6 +2,8 @@
 
 This is a simple tic-tac-toe game but with a twist. It has more 700 squares to play, make 5 X or O in a row,column, or diagonal to win the game. If you can help with my todo list or have new idea for the app, please feel free to make a pull request.
 
+This project is live on https://tic-tac-toe-jack.now.sh/
+
 Todo lists:
 
 1: implement win logic on both side of the diagonal. Right now it only works from left to right. Not from right to left.
